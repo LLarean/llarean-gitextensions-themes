@@ -1,8 +1,9 @@
-/* ppy Dark v2 — refined for Windows 11                              */
+/* ppy Dark — refined for Windows 11                                 */
+/* by LLarean — https://github.com/LLarean                          */
 /* Color palette: ppy Dark JetBrains theme by Dean Herbert           */
 /* https://github.com/peppy/ppy-jetbrains-theme                      */
 /* Base structure: GitExtensions dark.css                            */
-/* Changes from v1: Win11 layered surfaces, purple-tinted bg,        */
+/* Changes: Win11 layered surfaces, purple-tinted bg,                */
 /*   softer borders, raised GrayText for section headers             */
 
 @import url("dark.css");

@@ -1,14 +1,26 @@
 # llarean GitExtensions Themes
 
-Custom themes for [GitExtensions](https://github.com/gitextensions/gitextensions), based on the
-[ppy JetBrains theme](https://github.com/peppy/ppy-jetbrains-theme) by Dean Herbert.
+Custom themes for [GitExtensions](https://github.com/gitextensions/gitextensions) by [LLarean](https://github.com/LLarean),
+based on the [ppy JetBrains theme](https://github.com/peppy/ppy-jetbrains-theme) by Dean Herbert.
+
+Refined for Windows 11 — layered surfaces, softer borders, better contrast.
 
 ## Themes
 
 | File | Description |
 |------|-------------|
-| `ppy-dark-v2.css` | Dark theme, refined for Windows 11 — layered purple-tinted surfaces, softer borders |
-| `ppy-light-v2.css` | Light theme, refined for Windows 11 — layered grey surfaces, better contrast |
+| `ppy-dark.css` | Dark — purple-tinted layered surfaces, Win11 depth system |
+| `ppy-light.css` | Light — neutral grey layered surfaces, improved contrast |
+
+## Screenshots
+
+### ppy Dark
+
+![ppy Dark](screenshots/ppy-dark.png)
+
+### ppy Light
+
+![ppy Light](screenshots/ppy-light.png)
 
 ## Installation
 
@@ -21,7 +33,7 @@ Custom themes for [GitExtensions](https://github.com/gitextensions/gitextensions
 
 ## Attribution
 
-- Color palette: [ppy Dark/Light JetBrains theme](https://github.com/peppy/ppy-jetbrains-theme) by Dean Herbert (peppy)
+- Color palette: [ppy Dark/Light JetBrains theme](https://github.com/peppy/ppy-jetbrains-theme) by [Dean Herbert (peppy)](https://github.com/peppy)
 - Base CSS structure: GitExtensions built-in `dark.css` / `invariant.css`
 
 ## License

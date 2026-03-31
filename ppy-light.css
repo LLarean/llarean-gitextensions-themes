@@ -1,8 +1,9 @@
-/* ppy Light v2 — refined for Windows 11                             */
+/* ppy Light — refined for Windows 11                                */
+/* by LLarean — https://github.com/LLarean                          */
 /* Color palette: ppy Light JetBrains theme by Dean Herbert          */
 /* https://github.com/peppy/ppy-jetbrains-theme                      */
 /* Base structure: GitExtensions invariant.css                       */
-/* Changes from v1: Win11 layered surfaces, softer borders,          */
+/* Changes: Win11 layered surfaces, softer borders,                  */
 /*   better contrast, more consistent surface hierarchy              */
 
 @import url("invariant.css");
