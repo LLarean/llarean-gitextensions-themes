@@ -1,0 +1,117 @@
+/* ppy Dark v2 — refined for Windows 11                              */
+/* Color palette: ppy Dark JetBrains theme by Dean Herbert           */
+/* https://github.com/peppy/ppy-jetbrains-theme                      */
+/* Base structure: GitExtensions dark.css                            */
+/* Changes from v1: Win11 layered surfaces, purple-tinted bg,        */
+/*   softer borders, raised GrayText for section headers             */
+
+@import url("dark.css");
+
+/* ── Selection ─────────────────────────────────────────────────── */
+/* Replace harsh Windows blue with ppy purple */
+.Highlight               { color: #5E3280; }
+.HighlightText           { color: #E0E0EA; }
+.MenuHighlight           { color: #5E3280; }
+.HotTrack                { color: #b279f2; }
+
+/* ── Tooltip ────────────────────────────────────────────────────── */
+.Info                    { color: #1a1721; }
+.InfoText                { color: #D0D0D9; }
+
+/* ── System border colors — Win11-style: barely visible ─────────── */
+.WindowFrame             { color: #383645; }
+.ControlDark             { color: #383645; }
+.ControlDarkDark         { color: #2A2838; }
+.ControlLight            { color: #333240; }
+.ControlLightLight       { color: #3E3C50; }
+
+/* ── Win11-style layered surfaces ───────────────────────────────── */
+/* Values stay close to Win11 dark (#202020–#2b2b2b) but with a     */
+/* subtle purple tint so OS-rendered and CSS-rendered areas blend.   */
+.Window                  { color: #20202A; }
+.Control                 { color: #2A2A38; }
+.AppWorkspace            { color: #242432; }
+.ScrollBar               { color: #383648; }
+.ActiveCaption           { color: #2A2A38; }
+.InactiveCaption         { color: #242432; }
+.Menu                    { color: #242432; }
+.MenuBar                 { color: #242432; }
+.MenuText                { color: #D0D0D9; }
+.WindowText              { color: #D0D0D9; }
+.ControlText             { color: #D0D0D9; }
+/* Raised from #6d6a80 — section headers "Recent repositories" etc. */
+.GrayText                { color: #A0A0BC; }
+.ActiveBorder            { color: #48465E; }
+.InactiveBorder          { color: #383645; }
+
+/* ── Application colors ─────────────────────────────────────────── */
+/* Slightly warmer purple than system colors → visible but cohesive  */
+.PanelBackground            { color: #252535; }
+.EditorBackground           { color: #1C1C26; }
+.LineNumberBackground       { color: #212130; }
+.AuthoredHighlight          { color: #24203A; }
+.HighlightAllOccurences     { color: #2E2448; }
+.InactiveSelectionHighlight { color: #38354F; }
+
+/* ── Branch / tag label colors ──────────────────────────────────── */
+/* Slightly desaturated so rectangular outlines draw less attention  */
+.Branch                     { color: #20B870; }
+.RemoteBranch               { color: #D04E6A; }
+.RemoteBranch.colorblind    { color: #6E86FF; }
+.Tag                        { color: #9F68D8; }
+.OtherTag                   { color: #6B6880; }
+
+/* Merge-commit spine — soft purple instead of dark red */
+.Graph                      { color: #524A68; }
+.Graph.colorblind           { color: #5566BB; }
+
+/* ── Diff section header ─────────────────────────────────────────── */
+.DiffSection                { color: #35334A; }
+
+/* ── Commit graph lane colors ────────────────────────────────────── */
+/* Vivid but harmonious; 8-slot palette covers diverse branches      */
+.GraphBranch1               { color: #E868A0; }
+.GraphBranch2               { color: #60A8E0; }
+.GraphBranch3               { color: #22C47A; }
+.GraphBranch4               { color: #A870E8; }
+.GraphBranch5               { color: #E87060; }
+.GraphBranch6               { color: #20CCBC; }
+.GraphBranch7               { color: #E0BC38; }
+.GraphBranch8               { color: #80A8FF; }
+.GraphNonRelativeBranch     { color: #4A4862; }
+
+/* ── ANSI terminal — calibrated for dark purple-grey background ──── */
+.AnsiTerminalBlackForeNormal  { color: #8888A0; }
+.AnsiTerminalBlackBackNormal  { color: #363450; }
+.AnsiTerminalBlackForeBold    { color: #AAAAC0; }
+.AnsiTerminalBlackBackBold    { color: #404060; }
+.AnsiTerminalRedForeNormal    { color: #D04E6A; }
+.AnsiTerminalRedBackNormal    { color: #38182A; }
+.AnsiTerminalRedBackNormal.colorblind { color: #182038; }
+.AnsiTerminalRedForeBold      { color: #E88090; }
+.AnsiTerminalRedBackBold      { color: #482038; }
+.AnsiTerminalRedBackBold.colorblind   { color: #20285A; }
+.AnsiTerminalGreenForeNormal  { color: #22C47A; }
+.AnsiTerminalGreenBackNormal  { color: #183828; }
+.AnsiTerminalGreenForeBold    { color: #3AE890; }
+.AnsiTerminalGreenBackBold    { color: #1E4A34; }
+.AnsiTerminalYellowForeNormal { color: #E0BC38; }
+.AnsiTerminalYellowBackNormal { color: #382E10; }
+.AnsiTerminalYellowForeBold   { color: #F0D058; }
+.AnsiTerminalYellowBackBold   { color: #483C14; }
+.AnsiTerminalBlueForeNormal   { color: #60A8E0; }
+.AnsiTerminalBlueBackNormal   { color: #182840; }
+.AnsiTerminalBlueForeBold     { color: #88C8FF; }
+.AnsiTerminalBlueBackBold     { color: #1E3858; }
+.AnsiTerminalMagentaForeNormal { color: #C080F0; }
+.AnsiTerminalMagentaBackNormal { color: #2C1840; }
+.AnsiTerminalMagentaForeBold  { color: #DCA8FF; }
+.AnsiTerminalMagentaBackBold  { color: #3A2056; }
+.AnsiTerminalCyanForeNormal   { color: #20CCBC; }
+.AnsiTerminalCyanBackNormal   { color: #0E2C2C; }
+.AnsiTerminalCyanForeBold     { color: #3AEED8; }
+.AnsiTerminalCyanBackBold     { color: #143A38; }
+.AnsiTerminalWhiteForeNormal  { color: #C8C8D8; }
+.AnsiTerminalWhiteBackNormal  { color: #2C2C3B; }
+.AnsiTerminalWhiteForeBold    { color: #E8E8F0; }
+.AnsiTerminalWhiteBackBold    { color: #363647; }
