@@ -3,24 +3,24 @@
 Custom themes for [GitExtensions](https://github.com/gitextensions/gitextensions) by [LLarean](https://github.com/LLarean),
 based on the [ppy JetBrains theme](https://github.com/peppy/ppy-jetbrains-theme) by Dean Herbert.
 
-Refined for Windows 11 — layered surfaces, softer borders, better contrast.
+Refined for Windows 11 — layered surfaces, flat borders, better contrast.
 
 ## Themes
 
 | File | Description |
 |------|-------------|
-| `ppy-dark.css` | Dark — purple-tinted layered surfaces, Win11 depth system |
-| `ppy-light.css` | Light — neutral grey layered surfaces, improved contrast |
+| `llarean-dark.css` | Dark — purple-tinted layered surfaces, Win11 depth system |
+| `llarean-light.css` | Light — neutral grey layered surfaces, improved contrast |
 
 ## Screenshots
 
-### ppy Dark
+### llarean Dark
 
-![ppy Dark](screenshots/ppy-dark.png)
+![llarean Dark](screenshots/llarean-dark.png)
 
-### ppy Light
+### llarean Light
 
-![ppy Light](screenshots/ppy-light.png)
+![llarean Light](screenshots/llarean-light.png)
 
 ## Installation
 
