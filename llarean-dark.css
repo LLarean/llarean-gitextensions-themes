@@ -1,10 +1,12 @@
-/* llarean Dark v2.1 — refined for Windows 11                        */
+/* llarean Dark v2.2 — refined for Windows 11                        */
 /* Based on ppy Dark JetBrains theme by Dean Herbert                 */
 /* https://github.com/peppy/ppy-jetbrains-theme                      */
 /* Base structure: GitExtensions dark.css                            */
 /* Changes from v2: flat Win11-style borders (ControlDark/Light      */
 /*   collapsed toward Control — eliminates 3D button effect in       */
 /*   custom-drawn areas), unified surface hierarchy                  */
+/* Changes from v2.1: add ButtonFace/Highlight/Shadow overrides      */
+/*   to eliminate white outlines on panels and SplitContainer        */
 
 @import url("dark.css");
 
@@ -23,11 +25,16 @@
 /* ControlDark/Light collapsed to ±4–6 pts of Control (#2A2A38)     */
 /* to eliminate the raised 3D border on custom-drawn controls.       */
 /* WindowFrame provides a clean single-pixel window outline.         */
+/* ButtonHighlight/Shadow override invariant.css #ffffff default     */
+/* that causes bright white outlines on panels, SplitContainer, etc. */
 .WindowFrame             { color: #3A3850; }
 .ControlDark             { color: #2D2B40; }
 .ControlDarkDark         { color: #252333; }
 .ControlLight            { color: #2F2D42; }
 .ControlLightLight       { color: #343250; }
+.ButtonFace              { color: #2A2A38; }
+.ButtonHighlight         { color: #343250; }
+.ButtonShadow            { color: #252333; }
 
 /* ── Win11-style layered surfaces ───────────────────────────────── */
 /* Values stay close to Win11 dark (#202020–#2b2b2b) but with a     */
