@@ -1,4 +1,4 @@
-# llarean GitExtensions Themes
+# GitExtensions Themes
 
 Custom themes for [GitExtensions](https://github.com/gitextensions/gitextensions) by [LLarean](https://github.com/LLarean),
 based on the [ppy JetBrains theme](https://github.com/peppy/ppy-jetbrains-theme) by Dean Herbert.
